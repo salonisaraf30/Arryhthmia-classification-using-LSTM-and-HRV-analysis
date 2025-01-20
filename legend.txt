@@ -1,0 +1,33 @@
+Time domain features:
+
+mean_nni: Mean of normal-to-normal interval (NNI) durations, which is the average time between successive heartbeats.
+sdnn: Standard deviation of NNI, measuring the variability of NNI durations.
+sdsd: Standard deviation of successive NNI differences, another measure of variability in the heart rate.
+nni_50: The number of NNI intervals differing by more than 50 ms from the previous interval.
+pnni_50: The percentage of NNI intervals differing by more than 50 ms from the previous interval.
+nni_20: The number of NNI intervals differing by more than 20 ms from the previous interval.
+pnni_20: The percentage of NNI intervals differing by more than 20 ms from the previous interval.
+rmssd: The root mean square of successive NNI differences, another measure of variability in the heart rate.
+median_nni: The median value of NNI intervals, which is the middle value when they are sorted.
+range_nni: The difference between the maximum and minimum NNI values.
+cvsd: Coefficient of variation of successive NNI differences.
+cvnni: Coefficient of variation of NNI intervals.
+mean_hr: Mean heart rate, which is the average number of heartbeats per minute.
+max_hr: Maximum heart rate observed.
+min_hr: Minimum heart rate observed.
+std_hr: Standard deviation of heart rate.
+
+Frequency Domain Features:
+
+lf: Low-frequency power of the heart rate variability.
+hf: High-frequency power of the heart rate variability.
+lf_hf_ratio: The ratio of low-frequency to high-frequency power.
+lfnu: Low-frequency normalized units, a normalized measure of low-frequency power.
+hfnu: High-frequency normalized units, a normalized measure of high-frequency power.
+total_power: Total power of the heart rate variability, the sum of VLF, LF, and HF components.
+vlf: Very-low-frequency power of the heart rate variability.
+
+
+
+
+

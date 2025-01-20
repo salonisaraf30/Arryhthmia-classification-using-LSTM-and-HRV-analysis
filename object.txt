@@ -1,0 +1,9 @@
+Capture a hollistic view of entire ecg data in which we look at different patients (normal or arrythmic) and using our 
+models make a diagnosis of the patient rather than the data points.
+
+Normal ecg reports also may contain spikes due to human error (incorrect placement of probes, moving patients etc.)
+and this could be a valid reason to explain the high false positive rate
+
+Points of discussion with doctor:
+1) How he is able to tell abnormality
+2) His estimation as to why false positive rate is high
